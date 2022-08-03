@@ -18,7 +18,7 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 
-from config.settings.dev import STATIC_URL
+from config.settings import STATIC_URL
 
 urlpatterns = [
     path('admin/', admin.site.urls),
